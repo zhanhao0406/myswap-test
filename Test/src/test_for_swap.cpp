@@ -2,12 +2,12 @@
 #include "swap.h"
 using namespace std;
 
-//Êı×Ö½»»»
+//æ•°å­—äº¤æ¢
 
-////º¯ÊıµÄÉùÃ÷
+////å‡½æ•°çš„å£°æ˜
 //void swap(int a, int b);
 //
-////º¯ÊıµÄ¶¨Òå
+////å‡½æ•°çš„å®šä¹‰
 //void swap(int a, int b)
 //{
 //	int temp = a;
@@ -18,18 +18,24 @@ using namespace std;
 //	cout << "b = " << b << endl;
 //}
 
-//1. ´´½¨.h µÄÍ·ÎÄ¼ş
-//2. ´´½¨ .cppµÄÔ´ÎÄ¼ş
-//3. ÔÚÍ·ÎÄ¼şĞ´º¯ÊıµÄÉùÃ÷
-//4. ÔÚÔ´ÎÄ¼şÖĞĞ´º¯ÊıµÄ¶¨Òå
+//1. åˆ›å»º.h çš„å¤´æ–‡ä»¶
+//2. åˆ›å»º .cppçš„æºæ–‡ä»¶
+//3. åœ¨å¤´æ–‡ä»¶å†™å‡½æ•°çš„å£°æ˜
+//4. åœ¨æºæ–‡ä»¶ä¸­å†™å‡½æ•°çš„å®šä¹‰
 
 
 int main() {
 
 	int a = 10;
 	int b = 20;
+
+	cout<< "Before Swap"<< endl;
+	cout<< "a = "<< a<< endl;
+	cout<< "b = "<< b<< endl;
+	
 	swap(a, b);
 
-	system("pause");
+	//system("pause");
 	return 0;
+
 }
